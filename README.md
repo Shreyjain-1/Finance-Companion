@@ -72,13 +72,13 @@ finance-companion/
 
 | Home | Add Expense | Transaction Details |
 |---|---|---|
-| ![Home Screen](assets/screenshots/home-screen.png) | ![Add Expense Screen](assets/screenshots/add-expense-screen.png) | ![Add Income Screen](assets/screenshots/add-income-screen.png) |
+| ![Home Screen](assets/screenshots/home-screen.jpeg) | ![Add Expense Screen](assets/screenshots/add-expense-screen.jpeg) | ![Add Income Screen](assets/screenshots/add-income-screen.jpeg) |
 
 ### OCR / Receipt Scanning
 
 | Upload Receipt | Parsed Result | Category Detection |
 |---|---|---|
-| ![Upload Receipt](assets/screenshots/upload-receipt.png) | ![Parsed Result](assets/screenshots/parsed-result.png) | ![Filtered Results](assets/screenshots/category-detection.png) |
+| ![Upload Receipt](assets/screenshots/upload-receipt.png.jpeg) | ![Parsed Result](assets/screenshots/parsed-result.jpeg) | ![Filtered Results](assets/screenshots/category-detection.png.jpeg) |
 
 ## Tech stack
 
