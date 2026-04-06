@@ -9,7 +9,7 @@ class ReceiptApiService {
 
   // Put your PC IP here, for example:
   // static const String _baseUrl = 'http://192.168.1.5:8000';
-  static const String _baseUrl = 'http://192.168.29.187:8000';
+  static const String _baseUrl = 'my ip';
 
   Future<BillScanResult> scan(File imageFile) async {
     final request = http.MultipartRequest(

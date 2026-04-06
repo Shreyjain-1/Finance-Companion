@@ -165,7 +165,7 @@ class TransactionTile extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(width: 8),
+            
             Text(
               '${isExpense ? '-' : '+'}₹${amount.toStringAsFixed(0)}',
               style: tt.bodyMedium?.copyWith(
@@ -173,6 +173,21 @@ class TransactionTile extends StatelessWidget {
                 color: isExpense ? AppColors.expense : AppColors.income,
               ),
             ),
+            
+            PopupMenuButton<String>(
+              icon: const Icon(Icons.more_vert_rounded),
+              onSelected: (value) {
+                if (value == 'edit' && onEdit != null) onEdit!();
+                if (value == 'delete' && onDelete != null) onDelete!();
+              },
+              itemBuilder: (context) => [
+                if (onEdit != null)
+                  const PopupMenuItem(value: 'edit', child: Text('Edit')),
+                if (onDelete != null)
+                  const PopupMenuItem(value: 'delete', child: Text('Delete')),
+              ],
+            ),
+            
           ],
         ),
       ),
@@ -776,7 +791,6 @@ class BillInputSheet extends StatelessWidget {
                   size: 12,
                   color: AppColors.textMuted.withOpacity(0.55),
                 ),
-                
               ],
             ),
           ),
