@@ -66,25 +66,19 @@ finance-companion/
 
 ## Screenshots
 
-Add your screenshots in `assets/screenshots/` and replace the placeholder image names below with your actual files.
+
 
 ### App Overview
 
 | Home | Add Expense | Transaction Details |
 |---|---|---|
-| ![Home Screen](assets/screenshots/home-screen.png) | ![Add Expense Screen](assets/screenshots/add-expense-screen.png) | ![Transaction Details Screen](assets/screenshots/transaction-details-screen.png) |
+| ![Home Screen](assets/screenshots/home-screen.png) | ![Add Expense Screen](assets/screenshots/add-expense-screen.png) | ![Add Income Screen](assets/screenshots/add-income-screen.png) |
 
 ### OCR / Receipt Scanning
 
 | Upload Receipt | Parsed Result | Category Detection |
 |---|---|---|
-| ![Upload Receipt](assets/screenshots/upload-receipt.png) | ![Parsed Result](assets/screenshots/parsed-result.png) | ![Category Detection](assets/screenshots/category-detection.png) |
-
-### Optional Extra Screens
-
-| Analytics | Edit Transaction | Settings |
-|---|---|---|
-| ![Analytics](assets/screenshots/analytics.png) | ![Edit Transaction](assets/screenshots/edit-transaction.png) | ![Settings](assets/screenshots/settings.png) |
+| ![Upload Receipt](assets/screenshots/upload-receipt.png) | ![Parsed Result](assets/screenshots/parsed-result.png) | ![Filtered Results](assets/screenshots/category-detection.png) |
 
 ## Tech stack
 
